@@ -24,6 +24,22 @@
 | `<leader>tv` | Normal | Toggle vertical terminal |
 | `<leader>tf` | Normal | Toggle floating terminal |
 
+### Terminal Mode Navigation
+| Key | Mode | Description |
+|-----|------|-------------|
+| `<C-\><C-n>` | Terminal | Enter Normal mode in terminal |
+| `<Esc>` | Terminal | Exit floating terminal window |
+| `q` | Terminal | Quit terminal hover/info window |
+
+## Buffer Navigation (VSCode-like Tabs)
+
+| Key | Mode | Description |
+|-----|------|-------------|
+| `<S-h>` | Normal | Previous buffer/tab |
+| `<S-l>` | Normal | Next buffer/tab |
+| `<leader>bd` | Normal | Close buffer with picker |
+| `<leader>bp` | Normal | Pick buffer with picker |
+
 ## Code Formatting
 
 | Key | Mode | Description |
